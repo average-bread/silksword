@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "silksword",
+  "version": "${version}",
+
+  "name": "Slink Sword",
+  "description": "Now golden sword has real silk touch",
+  "authors": [
+    "Bread (with a lot of help)"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+	"icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cursedbread.silksword.ItemsMod"
+    ],
+		"beforeGameStart": [
+          "cursedbread.silksword.ItemsMod"
+		]
+	},
+  "mixins": [
+      "silksword.mixins.json"
+  ],
+
+  "depends": {
+		"minecraft": "~7.1-beta.2a",
+    "fabricloader": ">=0.13.3"
+  },
+  "suggests": {
+  }
+}

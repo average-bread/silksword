@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "cursedbread.silksword.mixins",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+      "SoulDrop",
+      "SpawnerSurvival"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+  }
+}
